@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import about from "../../../assets/asraful.png";
 const About = () => {
   return (
     <div>
@@ -13,11 +13,7 @@ const About = () => {
         </h1>
         <div className="flex flex-col  md:grid md:grid-cols-2 items-center md:justify-around  px-10 md:px-8 lg:px-16 mt-8">
           <div className="about-img relative md:ml-5 lg:ml-14 ">
-            <img
-              src="https://i.ibb.co/K5QZXts/Screenshot-2023-12-05-at-4-02-21-PM.png "
-              className=" flex-row-reverse"
-              alt=""
-            />
+            <img src={about} className="reverse" alt="" />
             <span className="circle-spin"></span>
             <span
               className="animate about-head absolute "

@@ -8,6 +8,7 @@ import {
   SiNextdotjs,
   SiExpress,
   SiRedux,
+  SiReactrouter,
 } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 
@@ -96,7 +97,7 @@ const Skills = () => {
                 className="gap-2 py-3 px-10 flex items-center rounded-md"
                 style={{ border: "1px solid #00abf0" }}
               >
-                {/* <IoLogoReact size={30} /> */}
+                <SiReactrouter size={30} />
                 React Router
               </div>
               <div

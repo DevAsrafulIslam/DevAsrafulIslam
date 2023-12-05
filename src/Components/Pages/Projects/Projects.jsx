@@ -1,4 +1,4 @@
-import { FaEye, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -20,7 +20,7 @@ const Projects = () => {
               style={{ "--i": "2" }}
             ></span>
           </h3>
-          <div className="project-box grid grid-cols-2 relative">
+          <div className="project-box grid grid-cols-2 gap-4 relative">
             <div className="project-content">
               <div className="content">
                 <Link
@@ -116,17 +116,16 @@ const Projects = () => {
               style={{ "--i": "3" }}
             ></span>
           </div>
-          <div className="btn-box flex mx-auto  buttons relative ">
-            <Link
-              target="_blank"
-              to="https://github.com/DevAsrafulIslam"
-              className="button-box  my-6 px-5 py-4"
-            >
-              <button className="font-light">Mor Projects</button>
+          <div
+            className="btn-box mt-8 relative buttons cursor-pointer"
+            style={{ display: "flex", margin: "auto" }}
+          >
+            <Link type="submit" className="button-box px-8 py-3">
+              More Projects
             </Link>
             <span
               className="animate about-head absolute "
-              style={{ "--i": "5" }}
+              style={{ "--i": "8" }}
             ></span>
           </div>
         </div>

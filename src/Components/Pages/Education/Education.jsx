@@ -81,8 +81,8 @@ const Education = () => {
 
                 <h3 title="(Junior School Certificate) ">B.Sc in CSE</h3>
                 <p>
-                  I am currently study in International University of Business Agriculture
-                  and Technology.
+                  I am currently study in International University of Business
+                  Agriculture and Technology.
                 </p>
               </div>
             </div>
@@ -108,8 +108,15 @@ const Education = () => {
                   2017
                 </div>
 
-                <h3>Computer Application - Company Name( None )</h3>
-                <p>No Experience In this Section .</p>
+                <h3>Computer Application - </h3>
+                <p>
+                  Experience In this Section
+                  <div className="text-2xl text-[#00abf0] ">
+                    <span>Microsoft Office </span>{" "}
+                    <span className="ml-4">Adobe Photoshop</span>
+                    <span className="ml-4">Adobe Illustrator</span>
+                  </div>
+                </p>
               </div>
             </div>
             <div className="education-content">
@@ -119,8 +126,12 @@ const Education = () => {
                   2022
                 </div>
 
-                <h3>Flutter - Company Name( None )</h3>
-                <p>No Experience In this Section .</p>
+                <h3>Flutter - </h3>
+                <p>Experience In this Section.</p>
+                <div className="text-2xl text-[#00abf0] ">
+                  <span className="ml-4">Android App</span>
+                  <span className="ml-4">iSO App</span>
+                </div>
               </div>
             </div>
             <div className="education-content">
@@ -130,8 +141,11 @@ const Education = () => {
                   2022
                 </div>
 
-                <h3>Web Developer - Company Name( None )</h3>
-                <p>No Experience In this Section .</p>
+                <h3>Web Developer - </h3>
+                <p>Experience In this Section .</p>
+                <div className="text-2xl text-[#00abf0] ">
+                  <span className="ml-4">Front End Developer</span>
+                </div>
               </div>
             </div>
             <span
