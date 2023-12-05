@@ -14,8 +14,18 @@ const navLinks = [
     name: "Education",
     to: "#education",
   },
-  { name: "Skills", to: "#skills" },
-  { name: "Contact", to: "#contact" },
+  {
+    name: "Skills",
+    to: "#skills",
+  },
+  {
+    name: "Projects",
+    to: "#project",
+  },
+  {
+    name: "Contact",
+    to: "#contact",
+  },
 ];
 
 const Header = (props) => {
@@ -29,7 +39,7 @@ const Header = (props) => {
     <header className="flex items-center z-[100] fixed top-0 justify-between transition-all duration-700 py-5 sm:px-14 md:px-20 lg:px-24 bg-[--bg-color] px-9  w-full  header">
       <a href="#home">
         <h2 className="text-4xl name relative font-primary tracking-wider font-semibold">
-          .ashfak
+          .asraful
         </h2>
       </a>
       <div className="block relative navIcon  md:hidden">

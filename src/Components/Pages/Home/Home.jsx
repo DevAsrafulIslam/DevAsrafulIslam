@@ -7,7 +7,7 @@ const Home = () => {
     <div className=" home-content">
       <div>
         <h1 className="text-[27px] relative sm:text-[38px]  md:text-5xl lg:text-6xl xl:text-6xl home-name ">
-          Hi I'm , <span className="text-[#00abf0]">Ashfak Hossain</span>
+          Hi I'm , <span className="text-[#00abf0]">Asraful Islam</span>
           <span className="animate absolute" style={{ "--i": "2" }}></span>
         </h1>
         <div className="text-animate relative ">
@@ -15,7 +15,10 @@ const Home = () => {
             FrontEnd Developer
           </h1>
 
-          <span className="animate absolute" style={{ "--i": "3" }}></span>
+          <span
+            className="animate overflow-hidden absolute"
+            style={{ "--i": "3" }}
+          ></span>
         </div>
         <p className="py-6 relative content-bio mr-5">
           I am a skilled and passionate Front-End Developer, harnessing the
@@ -28,12 +31,13 @@ const Home = () => {
         </p>
         <div className="btn-box">
           <Link
-            to={'mailto:ashfaksikder15@gmail.com'} className={`button-box button-animate text-white bg-[#00abf0] px-7 py-3  rounded-md`}
+            to={"mailto:asrafulislam.dev@gmail.com"}
+            className={`button-box button-animate text-white bg-[#00abf0] px-7 py-3  rounded-md`}
           >
             Hire me
           </Link>
           <Link
-            to={"mailto:ashfaksikder15@gmail.com"}
+            to={"https://www.linkedin.com/in/md-asraful-islam-79b295209/"}
             className="button-box button-animate text-white bg-[#00abf0] px-7 py-3 "
           >
             Lets Talk
@@ -42,17 +46,17 @@ const Home = () => {
       </div>
       <div className="home-sci">
         <Link
-          to={"https://web.facebook.com/ashfakhossain175"}
+          to={"https://www.facebook.com/dev.asrafulislam"}
           className="link-icon "
         >
           <FaFacebookF />
         </Link>{" "}
-        <Link to={"https://github.com/ashfakhossain15"} className="link-icon">
+        <Link to={"https://github.com/DevAsrafulIslam"} className="link-icon">
           <FaGithub />
         </Link>{" "}
         <Link
           className="link-icon"
-          to={"https://www.linkedin.com/in/ashfakhossain15/"}
+          to={"https://www.linkedin.com/in/md-asraful-islam-79b295209/"}
         >
           <FaLinkedinIn />
         </Link>

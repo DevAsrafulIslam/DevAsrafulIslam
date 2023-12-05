@@ -6,6 +6,7 @@ import Skills from "../Pages/Skills/Skills";
 import Contact from "../Pages/Contact/Contact";
 import Footer from "../Shared/Footer/Footer";
 import { useState, useEffect } from "react";
+import Projects from "../Pages/Projects/Projects";
 
 const Main = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -54,6 +55,9 @@ const Main = () => {
         </section>
         <section className={`skills`} id="skills">
           <Skills />
+        </section>
+        <section className={`project`} id="project">
+          <Projects />
         </section>
         <section className={`contact`} id="contact">
           <Contact />

@@ -13,7 +13,11 @@ const About = () => {
         </h1>
         <div className="flex flex-col  md:grid md:grid-cols-2 items-center md:justify-around  px-10 md:px-8 lg:px-16 mt-8">
           <div className="about-img relative md:ml-5 lg:ml-14 ">
-            <img src="/1671526779462-01.jpeg" alt="" />
+            <img
+              src="https://i.ibb.co/K5QZXts/Screenshot-2023-12-05-at-4-02-21-PM.png "
+              className=" flex-row-reverse"
+              alt=""
+            />
             <span className="circle-spin"></span>
             <span
               className="animate about-head absolute "
@@ -21,8 +25,8 @@ const About = () => {
             ></span>
           </div>
 
-          <div className="about-content space-y-8 text-center md:text-left mt-8">
-            <h2 className=" relative mb-4">
+          <div className="about-content  space-y-8 text-center md:text-left mt-8">
+            <h2 className=" relative  mb-4">
               Frontend Developer!{" "}
               <span
                 className="animate about-head absolute "
@@ -47,9 +51,9 @@ const About = () => {
                 <button className="font-light">Read More </button>
               </Link>
               <span
-            className="animate about-head absolute "
-            style={{ "--i": "5" }}
-          ></span>
+                className="animate about-head absolute "
+                style={{ "--i": "5" }}
+              ></span>
             </div>
           </div>
         </div>

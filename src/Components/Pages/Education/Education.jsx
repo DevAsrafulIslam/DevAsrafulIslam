@@ -12,7 +12,7 @@ const Education = () => {
       </h1>
       <div className="education-row mt-9.">
         <div className="education-colum">
-          <h3 className="title relative">
+          <h3 className="title relative text-[#fa6001]">
             Education{" "}
             <span
               className="animate about-head absolute "
@@ -24,15 +24,15 @@ const Education = () => {
               <div className="content">
                 <div className="year">
                   <FaCalendarAlt />
-                  2019
+                  2015
                 </div>
 
                 <h3 className="" title="(Junior School Certificate)">
-                  JSC - Bornamala School And College
+                  JSC - Dantbhanga High School & Collage
                 </h3>
                 <p>
-                  In 2019, I achieved a GPA of 3.86/5 in the JSC examination
-                  from Bornamala School and College, marking a significant
+                  In 2017, I achieved a GPA of 3.50/5 in the JSC examination
+                  from Dantbhanga School and College, marking a significant
                   academic accomplishment on my journey.
                 </p>
               </div>
@@ -41,16 +41,48 @@ const Education = () => {
               <div className="content">
                 <div className="year">
                   <FaCalendarAlt />
-                  2020-2022
+                  2017-2018
                 </div>
 
                 <h3 title="(Junior School Certificate) ">
-                  SSC - Karihata High School
+                  SSC - Vertex Model High School
                 </h3>
                 <p>
-                  I proudly graduated from Karihata High School in 2022,
-                  achieving an impressive GPA of 4.50 out of 5 in the SSC
-                  examination held between 2020-2022.
+                  I proudly graduated from Vertex Model High School in 2017,
+                  achieving an impressive GPA of 4.23 out of 5 in the SSC
+                  examination held between 2017-2018.
+                </p>
+              </div>
+            </div>
+            <div className="education-content">
+              <div className="content">
+                <div className="year">
+                  <FaCalendarAlt />
+                  2022
+                </div>
+
+                <h3 title="(Junior School Certificate) ">
+                  Diploma - Model Institute of Science and Technology
+                </h3>
+                <p>
+                  I proudly graduated Model Institute of Science and Technology
+                  in 2022, achieving an impressive CGPA of 3.84 out of 4 in the
+                  Diploma examination held between 2022.
+                </p>
+              </div>
+            </div>
+
+            <div className="education-content">
+              <div className="content">
+                <div className="year">
+                  <FaCalendarAlt />
+                  Continue Study
+                </div>
+
+                <h3 title="(Junior School Certificate) ">B.Sc in CSE</h3>
+                <p>
+                  I am currently study in International University of Business Agriculture
+                  and Technology.
                 </p>
               </div>
             </div>
@@ -61,7 +93,7 @@ const Education = () => {
           </div>
         </div>
         <div className="education-colum">
-          <h3 className="title relative">
+          <h3 className="title relative text-[#fa6001]">
             Experience{" "}
             <span
               className="animate about-head absolute "
@@ -73,10 +105,10 @@ const Education = () => {
               <div className="content">
                 <div className="year">
                   <FaCalendarAlt />
-                  2019
+                  2017
                 </div>
 
-                <h3>Web Developer - Company Name( None )</h3>
+                <h3>Computer Application - Company Name( None )</h3>
                 <p>No Experience In this Section .</p>
               </div>
             </div>
@@ -84,7 +116,18 @@ const Education = () => {
               <div className="content">
                 <div className="year">
                   <FaCalendarAlt />
-                  2020-2023
+                  2022
+                </div>
+
+                <h3>Flutter - Company Name( None )</h3>
+                <p>No Experience In this Section .</p>
+              </div>
+            </div>
+            <div className="education-content">
+              <div className="content">
+                <div className="year">
+                  <FaCalendarAlt />
+                  2022
                 </div>
 
                 <h3>Web Developer - Company Name( None )</h3>

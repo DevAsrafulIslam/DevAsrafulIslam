@@ -20,6 +20,7 @@
   --second-bg-color: #112e42;
   --text-color: #ededed;
   --main-color: #00abf0;
+  --spin-color: #ff7300;
 }
 html {
   overflow-x: hidden;
@@ -253,6 +254,7 @@ nav a:hover {
   color: var(--main-color);
 }
 .about-img {
+  transform: scaleX(-1);
   position: relative;
   width: 25rem;
   height: 25rem;
@@ -275,7 +277,7 @@ nav a:hover {
   height: 100%;
   border-radius: 50%;
   border-left: 0.2rem solid var(--main-color);
-  border-right: 0.2rem solid var(--main-color);
+  border-right: 0.2rem solid tomato;
   border-top: 0.2rem solid var(--second-bg-color);
   border-bottom: 0.2rem solid var(--second-bg-color);
   animation: aboutSpinner 8s linear infinite;
@@ -295,6 +297,7 @@ nav a:hover {
 .btn-box.buttons a::before {
   background: var(--second-bg-color);
 }
+
 .education {
   padding: 2% 5%;
   background: var(--bg-color);
@@ -304,26 +307,34 @@ nav a:hover {
   flex-direction: column;
   padding-bottom: 4rem;
 }
+
 .education .education-row {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
 }
+
 .education-row .education-colum {
   flex: 1 1 35rem;
 }
+
 .education-colum .title {
   font-size: 2.5rem;
   margin: 1rem 0 1.5rem 2rem;
   font-weight: 400;
 }
+
 .education-colum .education-box {
   border-left: 0.2rem solid var(--main-color);
 }
+
+
 .education-box .education-content {
   position: relative;
   padding-left: 2rem;
 }
+
+
 .education-box .education-content::before {
   content: "";
   top: 0px;
@@ -335,6 +346,7 @@ nav a:hover {
   border-radius: 50%;
 }
 
+
 .education-content .content {
   padding: 1.3rem;
   position: relative;
@@ -344,6 +356,8 @@ nav a:hover {
   z-index: 1;
   overflow: hidden;
 }
+
+
 .education-content .content::before {
   content: "";
   position: absolute;
@@ -355,9 +369,13 @@ nav a:hover {
   z-index: -1;
   transition: 0.5s;
 }
+
+
 .education-content .content:hover::before {
   width: 100%;
 }
+
+
 .education-content .content .year {
   display: flex;
   gap: 0.6rem;
@@ -366,13 +384,105 @@ nav a:hover {
   padding-bottom: 0.26rem;
   color: var(--main-color);
 }
+
+
+
 .education-content .content h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+
 .education-content .content p {
   font-size: 1rem;
   padding-top: 0.5rem;
+}
+
+/* project */
+.project {
+  padding: 2% 5%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.project .project-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.project-row .project-colum {
+  flex: 1 1 35rem;
+}
+.project-colum .title {
+  font-size: 2.5rem;
+  margin: 1rem 0 1.5rem 2rem;
+  font-weight: 400;
+}
+/* .project-colum .project-box {
+  border-left: 0.2rem solid var(--main-color);
+} */
+.project-box .project-content {
+  position: relative;
+  padding-left: 2rem;
+}
+/* .project-box .project-content::before {
+  content: "";
+  top: 0px;
+  left: -1.1rem;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: var(--main-color);
+  border-radius: 50%;
+} */
+
+.project-content .content {
+  padding: 1.3rem;
+  position: relative;
+  margin-bottom: 1.8rem;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.9rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.project-content .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  left: 0;
+  background: var(--second-bg-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+.project-content .content:hover::before {
+  width: 100%;
+}
+.project-content .content .year {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-bottom: 0.26rem;
+  color: var(--main-color);
+}
+.project-content .content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.project-content .content p {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+.project-img{
+  border-radius: 3%;
+
 }
 .skills {
   padding: 4% 4%;
@@ -405,6 +515,7 @@ nav a:hover {
   overflow: hidden;
   z-index: 1;
 }
+
 .skills-box .skills-content::before {
   content: "";
   position: absolute;
@@ -532,14 +643,14 @@ nav a:hover {
 .navIcon .animate,
 .home.show-animation .animate {
   background: var(--bg-color);
-  animation: showRight 1s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
+  animation: showRight 0.1s ease forwards;
+  animation-delay: calc(0.1s * var(--i));
 }
 
 .animate.about-head {
   background: var(--bg-color);
-  transition: 1s ease;
-  transition-delay: calc(0.3s / var(--i));
+  transition: 0.1s ease;
+  transition-delay: calc(0.1s / var(--i));
   animation: none;
 }
 section:nth-child(odd) .animate.about-head {
@@ -548,12 +659,16 @@ section:nth-child(odd) .animate.about-head {
 .education .education-box .animate.about-head {
   width: 105%;
 }
+.project .education-box .animate.about-head {
+  width: 105%;
+}
 
 .about.show-animation .animate.about-head,
 .education.show-animation .animate.about-head,
+.project.show-animation .animate.about-head,
 .skills.show-animation .animate.about-head,
 .contact.show-animation .animate.about-head {
-  transition-delay: calc(0.2s * var(--i));
+  transition-delay: calc(0.1s * var(--i));
   width: 0;
 }
 @keyframes buttonLeft {
@@ -702,6 +817,10 @@ section:nth-child(odd) .animate.about-head {
     padding: 2% 3%;
     padding-bottom: 3rem;
   }
+  .project {
+    padding: 2% 3%;
+    padding-bottom: 3rem;
+  }
   .home-sci {
     position: absolute;
     width: 135px;
@@ -732,6 +851,9 @@ section:nth-child(odd) .animate.about-head {
     margin: 0.5rem 0 1.5rem;
   }
   .education-colum .title {
+    margin: 0 0 1rem 2rem;
+  }
+  .project-colum .title {
     margin: 0 0 1rem 2rem;
   }
 
