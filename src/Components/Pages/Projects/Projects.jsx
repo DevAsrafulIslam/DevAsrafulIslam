@@ -47,7 +47,7 @@ const Projects = () => {
               <div className="content">
                 <Link
                   target="_blank"
-                  to="https://my-portfolio-1sx2t5a6b-devasrafulislam.vercel.app/"
+                  to="https://my-portfolio-delta-green.vercel.app"
                 >
                   <div className="year">
                     <FaGithub />
