@@ -45,7 +45,10 @@ const Projects = () => {
             </div>
             <div className="project-content">
               <div className="content">
-                <Link target="_blank" to="http://localhost:5173/">
+                <Link
+                  target="_blank"
+                  to="https://my-portfolio-1sx2t5a6b-devasrafulislam.vercel.app/"
+                >
                   <div className="year">
                     <FaGithub />
                     GitHub
