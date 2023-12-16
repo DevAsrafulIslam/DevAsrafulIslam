@@ -397,8 +397,10 @@ nav a:hover {
   font-size: 1rem;
   padding-top: 0.5rem;
 }
+/* ???? */
 
-/* project */
+
+
 .project {
   padding: 2% 5%;
   background: var(--bg-color);
@@ -414,22 +416,29 @@ nav a:hover {
   flex-wrap: wrap;
   gap: 5rem;
 }
-.project-row .project-colum {
+
+.project-row .education-colum {
   flex: 1 1 35rem;
 }
+
 .project-colum .title {
   font-size: 2.5rem;
   margin: 1rem 0 1.5rem 2rem;
   font-weight: 400;
 }
-/* .project-colum .project-box {
+
+.project-colum .education-box {
   border-left: 0.2rem solid var(--main-color);
-} */
-.project-box .project-content {
-  position: relative;
-  /* padding-left: 2rem; */
 }
-/* .project-box .project-content::before {
+
+
+.project-box .education-content {
+  position: relative;
+  padding-left: 2rem;
+}
+
+
+.project-box .education-content::before {
   content: "";
   top: 0px;
   left: -1.1rem;
@@ -438,7 +447,8 @@ nav a:hover {
   height: 2rem;
   background: var(--main-color);
   border-radius: 50%;
-} */
+}
+
 
 .project-content .content {
   padding: 1.3rem;
@@ -449,6 +459,8 @@ nav a:hover {
   z-index: 1;
   overflow: hidden;
 }
+
+
 .project-content .content::before {
   content: "";
   position: absolute;
@@ -460,9 +472,13 @@ nav a:hover {
   z-index: -1;
   transition: 0.5s;
 }
+
+
 .project-content .content:hover::before {
   width: 100%;
 }
+
+
 .project-content .content .year {
   display: flex;
   gap: 0.6rem;
@@ -471,19 +487,23 @@ nav a:hover {
   padding-bottom: 0.26rem;
   color: var(--main-color);
 }
+
+
+
 .project-content .content h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
+
 .project-content .content p {
   font-size: 1rem;
   padding-top: 0.5rem;
 }
-.project-img{
-  border-radius: 3%;
 
-}
+/* ????? */
+/* project */
+
 .skills {
   padding: 4% 4%;
   background: var(--second-bg-color);
@@ -643,14 +663,14 @@ nav a:hover {
 .navIcon .animate,
 .home.show-animation .animate {
   background: var(--bg-color);
-  animation: showRight 0.1s ease forwards;
-  animation-delay: calc(0.1s * var(--i));
+  animation: showRight 0.6s ease forwards;
+  animation-delay: calc(0.6s * var(--i));
 }
 
 .animate.about-head {
   background: var(--bg-color);
-  transition: 0.1s ease;
-  transition-delay: calc(0.1s / var(--i));
+  transition: 1s ease;
+  transition-delay: calc(1s / var(--i));
   animation: none;
 }
 section:nth-child(odd) .animate.about-head {
